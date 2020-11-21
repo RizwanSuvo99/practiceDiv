@@ -1,0 +1,144 @@
+/*===Fonts===*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/*====Default CSS====*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	color: #f8f8f8;
+	box-sizing: border-box;
+}
+
+/*====Body CSS====*/
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+	padding: 10px;
+	text-align: center;
+	color: #f8f8f8;
+}
+
+.wrapper {
+	width: 95%;
+	margin: auto;
+}
+
+/*===Header CSS Start===*/
+.headerSection {
+	background-color: #511845;
+	width: 100%;
+	overflow: hidden;
+}
+
+.logo {
+	width: 25%;
+	float: left;
+}
+
+.heading {
+	width: 75%;
+	float: right;
+}
+
+/*===Header CSS End===*/
+
+/*===Hero Section CSS Start===*/
+.heroSection {
+	padding: 250px 0px;
+	font-family: serif;
+	background-color: #900c3f;
+}
+
+.heroSection input,
+.heroSection button {
+	border-radius: 5px;
+}
+.search{
+	padding-left: 300px;
+}
+.search input {
+	background-color: #8db596;
+	padding: 15px 400px 15px 0px;
+	color: black;
+	display: inline-block;
+
+}
+
+button {
+	padding: 15px;
+	background-color:#511845;
+	transition: all .5s ease;
+	display: inline-block;
+}
+
+button:hover {
+	background-color: #321f28;
+	border-radius: 10px;
+	transition: all .5s ease;
+}
+
+/*===Hero Section CSS Start===*/
+
+/*===Blogs CSS Start===*/
+.blog {
+	width: 33.33%;
+	float: left;
+	padding: 5px;
+}
+
+.caption {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background: #c70039;
+}
+
+.content {
+	height: 250px;
+	background: #ff5733;
+}
+
+/*===blogTwo CSS===*/
+.blogSectionTwo .blog {
+	width: 50%;
+	float: left;
+}
+
+/*===blogThree CSS===*/
+.blogSectionThree .blog:nth-child(1) {
+	width: 70%;
+	float: left;
+}
+
+.blogSectionThree .blog:nth-child(2) {
+	width: 30%;
+	float: left;
+}
+/*===blogFour CSS===*/
+.blogSectionFour .blog {
+	width: 25%;
+	float: left;
+}
+
+/*===Blogs CSS End===*/
+
+/*===Footer CSS Start===*/
+.footerSection {
+	background-color:   #8db596;
+	padding: 20px;
+	clear: both;
+}
+.footerSection h1{
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	font-family: arial;
+	letter-spacing: 10px;
+	color: #FF6461;
+	text-shadow: 2px 2px 0px #585B7E,-2px -2px 0px #E8BAED;
+}
+
+/*===Footer CSS End===*/
